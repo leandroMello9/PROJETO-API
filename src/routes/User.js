@@ -1,6 +1,9 @@
 const userRoutes = require("express").Router();
 const userController = require("../controllers/User");
 
+
+
+
 userRoutes.post("/createUser", userController.store);
 
 // Listen all users
